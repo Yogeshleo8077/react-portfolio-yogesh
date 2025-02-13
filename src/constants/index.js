@@ -63,7 +63,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Quarsi Ram Ghat Road, Aligarh",
+  address: "Quarsi RamGhat Road, Aligarh",
   phoneNo: "+91 8077576904",
   email: "yogeshleo420@gmail.com",
 };
