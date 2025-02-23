@@ -39,26 +39,31 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+    title: "E-Commerce Platform",
+    image: project2,
+    description:
+      "A simple Tic-Tac-Toe game.",
+    technologies: ["HTML", "CSS", "React"],
+    url: "https://your-tic-tac-toe-game.com",
+  },
   {
     title: "Food Delivery Website",
     image: project1,
     description:
       "A fully functional food delivery website with features like add food items, food cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
+    url: "https://food-delivery-website-frontend-bpno.onrender.com/",
   },
-  {
-    title: "Tic Tac Toe",
-    image: project2,
-    description:
-      "A simple Tic-Tac-Toe game.",
-    technologies: ["HTML", "CSS", "React"],
-  },
+
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
+    url: "https://your-portfolio-website.com",
   },
 ];
 

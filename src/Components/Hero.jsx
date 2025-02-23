@@ -14,15 +14,15 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4  lg:mb-35">
-      <div className="flex flex-wrap">
+    <div className="border-b border-neutral-900 pb-12 lg:mb-40">
+      <div className="flex flex-wrap items-center">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-center lg:items-start">
+          <div className="flex flex-col items-center lg:items-start px-6 md:px-12 lg:px-16">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-7xl ml-8"
+              className="pb-8 text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight text-center lg:text-left"
             >
               Yogesh Kushwah
             </motion.h1>
@@ -31,33 +31,31 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent ml-8"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-xl md:text-2xl lg:text-3xl font-semibold text-transparent text-center lg:text-left"
             >
-              Full Stack Developer
+              Web Developer
             </motion.span>
 
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter ml-8"
+              className="my-4 max-w-xl text-sm md:text-base lg:text-lg font-light text-center lg:text-left"
             >
               {HERO_CONTENT}
             </motion.p>
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              className="w-[500px]"
-              src={profilePic}
-              alt="Yogesh Kushwah"
-            />
-          </div>
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end px-6 md:px-12 lg:px-16">
+          <motion.img
+            initial={{ x: 100, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 1.2 }}
+            className="w-64 md:w-80 lg:w-[500px] rounded-full shadow-lg"
+            src={profilePic}
+            alt="Yogesh Kushwah"
+          />
         </div>
       </div>
     </div>
