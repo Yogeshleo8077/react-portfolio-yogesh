@@ -3,6 +3,13 @@ import { RiReactjsLine } from "react-icons/ri";
 import { FaNodeJs, FaBootstrap, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
+import { SiMui } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -54,12 +61,31 @@ const Technologies = () => {
             icon: <SiTailwindcss className="text-7xl text-cyan-400" />,
             delay: 10,
           },
-          { icon: <SiMongodb className="text-7xl text-green-500" />, delay: 6 },
+          {
+            icon: <SiPostman className="text-7xl text-orange-500" />,
+            delay: 6,
+          },
           {
             icon: <FaBootstrap className="text-7xl text-purple-800" />,
             delay: 12,
           },
           { icon: <SiExpress className="text-7xl text-gray-300" />, delay: 2 },
+
+          {
+            icon: <TbBrandFramerMotion className="text-7xl text-purple-800" />,
+            delay: 12,
+          },
+          { icon: <SiMongodb className="text-7xl text-green-500" />, delay: 6 },
+          {
+            icon: <VscVscode className="text-7xl text-blue-400" />,
+            delay: 10,
+          },
+
+          { icon: <FaJava className="text-7xl text-orange-500" />, delay: 6 },
+
+          { icon: <SiMui className="text-7xl text-blue-500" />, delay: 2 },
+
+          { icon: <FaGithub className="text-7xl text-orange-500" />, delay: 6 },
         ].map((tech, index) => (
           <motion.div
             key={index}
