@@ -1,7 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `I am a passionate Web Developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, Tailwind CSS and Bootstrap, as well as back-end technologies like Node.js, Express.js and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -44,9 +43,9 @@ export const PROJECTS = [
     title: "E-Commerce Platform",
     image: project2,
     description:
-      "A simple Tic-Tac-Toe game.",
-    technologies: ["HTML", "CSS", "React"],
-    url: "https://your-tic-tac-toe-game.com",
+      "A fully functional E Commerce Website with features like add items into cart, user cart, multiple payment gateway and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
+    url: "https://e-commerce-frontend-three-nu.vercel.app/",
   },
   {
     title: "Food Delivery Website",
@@ -55,15 +54,6 @@ export const PROJECTS = [
       "A fully functional food delivery website with features like add food items, food cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express"],
     url: "https://food-delivery-website-frontend-bpno.onrender.com/",
-  },
-
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
-    url: "https://your-portfolio-website.com",
   },
 ];
 
