@@ -8,9 +8,12 @@ import { FaJava } from "react-icons/fa";
 import { VscVscode } from "react-icons/vsc";
 import { SiMui } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { SiSocketdotio } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
-
-import { motion } from "framer-motion";
+import { FaDocker } from "react-icons/fa";
+import { FaLinux } from "react-icons/fa";
+import { SiKubernetes } from "react-icons/si";
+import { delay, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
   initial: {
@@ -76,6 +79,7 @@ const Technologies = () => {
             delay: 12,
           },
           { icon: <SiMongodb className="text-7xl text-green-500" />, delay: 6 },
+          { icon: <FaLinux className="text-7xl text-orange-500" />, delay: 2 },
           {
             icon: <VscVscode className="text-7xl text-blue-400" />,
             delay: 10,
@@ -86,6 +90,16 @@ const Technologies = () => {
           { icon: <SiMui className="text-7xl text-blue-500" />, delay: 2 },
 
           { icon: <FaGithub className="text-7xl text-orange-500" />, delay: 6 },
+
+          { icon: <FaDocker className="text-7xl text-blue-500" />, delay: 2 },
+          {
+            icon: <SiKubernetes className="text-7xl text-orange-500" />,
+            delay: 6,
+          },
+          {
+            icon: <SiSocketdotio className="text-7xl text-purple-500" />,
+            delay: 2,
+          },
         ].map((tech, index) => (
           <motion.div
             key={index}
