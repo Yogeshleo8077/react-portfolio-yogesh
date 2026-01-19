@@ -9,6 +9,7 @@ import { VscVscode } from "react-icons/vsc";
 import { SiMui } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiSocketdotio } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
@@ -54,6 +55,10 @@ const Technologies = () => {
           {
             icon: <IoLogoJavascript className="text-7xl text-yellow-500" />,
             delay: 4,
+          },
+          {
+            icon: <TbBrandTypescript className="text-7xl text-blue-500" />,
+            delay: 5,
           },
           {
             icon: <RiReactjsLine className="text-7xl text-cyan-400" />,
