@@ -31,7 +31,7 @@ const NavBar = () => {
       </div>
 
       <a
-        href="/YogeshSoftwareEngineerResume3.pdf" // Update the path to your resume file
+        href="/YogeshSoftEngResume.pdf" // Update the path to your resume file
         download
         className="flex items-center gap-2 px-4 py-2  text-white rounded-lg shadow-md hover:bg-black transition duration-300 text-sm md:text-base"
       >
